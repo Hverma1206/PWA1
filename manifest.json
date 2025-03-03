@@ -1,24 +1,32 @@
-{
-  "name": "PWA App",
-  "short_name": "PWA",
-  "description": "Your Progressive Web App",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "orientation": "portrait",
-  "icons": [
-    {
-      "src": "icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ]
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}  "manifest_version": 2  ],    }      "js": ["content.js"]      "matches": ["<all_urls>"],    {  "content_scripts": [  },    "128": "images/icon128.png"    "48": "images/icon48.png",    "16": "images/icon16.png",  "icons": {  },    }      "128": "images/icon128.png"      "48": "images/icon48.png",      "16": "images/icon16.png",    "default_icon": {    "default_popup": "popup.html",  "browser_action": {  },    "persistent": false    "scripts": ["background.js"],  "background": {  "permissions": ["notifications"],  "description": "A description of my extension.",  "version": "1.0",  "name": "My Extension",  "manifest_version": 2,{
